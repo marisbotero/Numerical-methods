@@ -1,5 +1,5 @@
 import numpy as np 
-import matplotlib.pyplot as plt #libreria para hacer caluclos avanzados
+import matplotlib.pyplot as plt 
 
 x= np.linspace(-5,5, 100)    #graficar la funcion
 plt.plot(x, np.exp(x) -x)
